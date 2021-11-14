@@ -3,7 +3,7 @@ Get text messages/email alerts when your Deepthought2 jobs finish running.
 
 ## ⚠️ Warning ⚠️
 
-This program runs in the background on the login node, and is alive until your job has finished running. Because this duration may be long, it could potentially violate the [HPC usage policy](https://hpcc.umd.edu/hpcc/policies.html#LoginNodes) concerning login node usage. Run this program at your own risk.
+This program runs in the background on the login node, and is alive until your job has finished running. Because this duration may be long, it could potentially violate the [HPC usage policy](https://hpcc.umd.edu/hpcc/policies.html#LoginNodes) concerning login node usage. Be warned: if you decide to run this program, it will be at your own risk.
 
 ## Getting started
 
