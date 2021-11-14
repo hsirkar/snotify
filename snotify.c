@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
             break;
         }
     	
-    	sleep(120);
+    	sleep(600); /* Re-check every 10 minutes */
     }
     
     /* Prepare email contents */
