@@ -40,6 +40,14 @@ Supported carriers (not all tested):
 - `straighttalk`
 - `metropcs`
 
+## Testing
+If you want to verify that snotify works for your email or phone, you can test with the provided `hello-world` program:
+
+    cd test
+    make
+    sbatch submit.sh
+    snotify -j <job-id> -e <email> | -p <phone> -c <carrier>
+
 ## How it works
 
 snotify runs in the background and listens for changes to squeue. If it sees that your job id is no longer in the queue, it sends you an email/text notification saying your job is complete, and terminates.
